@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Interface /> renders correctly 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Interface />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <Outcome
+          message={undefined}
+/>,
+        <div>
+          <a
+                    className="score"
+          >
+                    Dealer Score : 
+          </a>
+          <a
+                    className="score"
+          >
+                    Player Score : 
+          </a>
+</div>,
+        <button
+          id="deal-button"
+          onClick={undefined}
+>
+          Deal
+</button>,
+        <button
+          id="hit-button"
+          onClick={undefined}
+>
+          Hit
+</button>,
+        <button
+          id="stand-button"
+          onClick={undefined}
+>
+          Stand
+</button>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "message": undefined,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <a
+              className="score"
+>
+              Dealer Score : 
+</a>,
+            <a
+              className="score"
+>
+              Player Score : 
+</a>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Dealer Score : ",
+                undefined,
+              ],
+              "className": "score",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Dealer Score : ",
+              undefined,
+            ],
+            "type": "a",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "Player Score : ",
+                undefined,
+              ],
+              "className": "score",
+            },
+            "ref": null,
+            "rendered": Array [
+              "Player Score : ",
+              undefined,
+            ],
+            "type": "a",
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Deal",
+          "id": "deal-button",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "Deal",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Hit",
+          "id": "hit-button",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "Hit",
+        "type": "button",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Stand",
+          "id": "stand-button",
+          "onClick": undefined,
+        },
+        "ref": null,
+        "rendered": "Stand",
+        "type": "button",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <Outcome
+            message={undefined}
+/>,
+          <div>
+            <a
+                        className="score"
+            >
+                        Dealer Score : 
+            </a>
+            <a
+                        className="score"
+            >
+                        Player Score : 
+            </a>
+</div>,
+          <button
+            id="deal-button"
+            onClick={undefined}
+>
+            Deal
+</button>,
+          <button
+            id="hit-button"
+            onClick={undefined}
+>
+            Hit
+</button>,
+          <button
+            id="stand-button"
+            onClick={undefined}
+>
+            Stand
+</button>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "message": undefined,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <a
+                className="score"
+>
+                Dealer Score : 
+</a>,
+              <a
+                className="score"
+>
+                Player Score : 
+</a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Dealer Score : ",
+                  undefined,
+                ],
+                "className": "score",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Dealer Score : ",
+                undefined,
+              ],
+              "type": "a",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  "Player Score : ",
+                  undefined,
+                ],
+                "className": "score",
+              },
+              "ref": null,
+              "rendered": Array [
+                "Player Score : ",
+                undefined,
+              ],
+              "type": "a",
+            },
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Deal",
+            "id": "deal-button",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "Deal",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Hit",
+            "id": "hit-button",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "Hit",
+          "type": "button",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Stand",
+            "id": "stand-button",
+            "onClick": undefined,
+          },
+          "ref": null,
+          "rendered": "Stand",
+          "type": "button",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
